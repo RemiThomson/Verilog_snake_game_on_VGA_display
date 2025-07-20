@@ -7,6 +7,13 @@ The design targets the Digilent **Basys 3** board (Artix-7 XC7A35T-1CPG236C) but
 
 ## Table of Contents
 
+- [Features](#features)
+- [Design Overview](#design-overview)
+- [Repository Layout](#repository-layout)
+- [Quick-Start (Vivado)](#quick-start-vivado)
+- [Gameplay & Controls](#gameplay--controls)
+- [Contributing](#contributing)
+
 
 ---
 
@@ -22,7 +29,9 @@ The design targets the Digilent **Basys 3** board (Artix-7 XC7A35T-1CPG236C) but
 
 ## Design Overview
 
-![System Architecture](Snake_System_Architecture.png)
+<p align="center">
+  <img src="Snake_System_Architecture.png" alt="System Architecture" width="500"/>
+</p>
 
 ### `Wrapper.v`
 Wires up all sub-modules and connects to Basys 3 I/O.
@@ -96,5 +105,9 @@ Open Hardware Manager → Program Device — connect your board and enjoy!
 
 Each time the snake’s head hits the flashing target, it grows by one square and the score advances (00–99).  
 Self-collision or wall-collision triggers **FAIL**; reaching the preset score limit triggers **WIN**.
+
+## Contributing
+
+Contributions to this FPGA snake game are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 
