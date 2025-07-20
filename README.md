@@ -29,7 +29,7 @@ This is a classic snake game, recreated entirely in synthesizable Verilog and to
 ## Design Overview
 
 <p align="center">
-  <img src="Snake_System_Architecture.png" alt="System Architecture" width="500"/>
+  <img src="Snake_System_Architecture.png" alt="System Architecture" width="700"/>
 </p>
 
 ### `Wrapper.v`
