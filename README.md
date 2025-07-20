@@ -1,7 +1,6 @@
 # Verilog Snake Game on VGA Display
 
-This is a classic snake game, recreated entirely in synthesizable Verilog and to be displayed on a 640 × 480 @ 60 Hz VGA monitor.  
-This specific design was made on the Digilent Basys 3 board (Artix-7) but can be ported to any FPGA with a spare RGB-video connector.
+This is a classic snake game, recreated entirely in synthesizable Verilog and to be displayed on a 640 × 480 @ 60 Hz VGA monitor. This specific design was made on the Digilent Basys 3 board (Artix-7) but can be ported to any FPGA with a spare RGB-video connector.
 
 ---
 
