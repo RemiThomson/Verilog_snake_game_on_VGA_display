@@ -55,6 +55,7 @@ Top-level game state manager (Idle, Play, Win, Fail).
 ### `ScoreCounter.v`
 Two-digit BCD score counter and 7-segment driver.
 
+---
 
 ## Repository Layout
 
