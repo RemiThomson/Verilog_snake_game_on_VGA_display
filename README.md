@@ -1,7 +1,7 @@
 # Verilog Snake Game on VGA Display
 
-Classic **Snake**, recreated entirely in synthesizable Verilog and shown on a 640 × 480 @ 60 Hz VGA monitor.  
-The design targets the Digilent **Basys 3** board (Artix-7 XC7A35T-1CPG236C) but can be ported to any FPGA with a spare RGB-video connector.
+This is a classic snake game, recreated entirely in synthesizable Verilog and to be displayed on a 640 × 480 @ 60 Hz VGA monitor.  
+This specific design was made on the Digilent Basys 3 board (Artix-7) but can be ported to any FPGA with a spare RGB-video connector.
 
 ---
 
@@ -69,6 +69,9 @@ Verilog_snake_game_on_VGA_display/
 │   │   ├── TargetGenerator.v # Pseudo-random food
 │   │   ├── ScoreCounter.v    # 2-digit BCD / 7-seg driver
 │   │   ├── GenericCounter.v  # Parameterised counters
+│   │   ├── generic_counter.v # Another counter
+│   │   ├── Seg7Decoder.v     # Number selection for counter
+│   │   ├── Multiplexer.v     # Used for the ScoreCounter
 │   │   └── InvertCorners.v   # Border colour-cycler
 │   └── constrs_1/new/
 │       └── Snake_Constraints.xdc   # Basys 3 pin-out
