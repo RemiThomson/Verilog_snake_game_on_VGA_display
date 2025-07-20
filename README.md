@@ -81,6 +81,8 @@ Verilog_snake_game_on_VGA_display/
 └── README.md                       # You are here
 ```
 
+---
+
 ## Quick-Start (Vivado)
 
 ### Create a New Project
@@ -96,7 +98,11 @@ Click **Generate Bitstream** or run batch mode:
 
 Open Hardware Manager → Program Device — connect your board and enjoy!
 
+---
+
 ## Gameplay and Controls
+
+---
 
 ## Gameplay & Controls
 
@@ -110,6 +116,8 @@ Open Hardware Manager → Program Device — connect your board and enjoy!
 
 Each time the snake’s head hits the flashing target, it grows by one square and the score advances (00–99).  
 Self-collision or wall-collision triggers **FAIL**; reaching the preset score limit triggers **WIN**.
+
+---
 
 ## Contributing
 
