@@ -32,6 +32,8 @@ This is a classic snake game, recreated entirely in synthesizable Verilog and to
   <img src="Snake_System_Architecture.png" alt="System Architecture" width="700"/>
 </p>
 
+---
+
 ### `Wrapper.v`
 Wires up all sub-modules and connects to Basys 3 I/O.
 
